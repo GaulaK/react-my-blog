@@ -1,7 +1,7 @@
 const ItemPicture = (props) => {
   return (
     <div>
-      <img src={props.src} />
+      <img alt="gray rectangle" src={props.src} />
     </div>
   );
 };
