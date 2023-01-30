@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+/* --------------- HEADER --------------- */
+/* --------------- HEADER --------------- */
+/* --------------- HEADER --------------- */
+
+header {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+}
+
+p.baseline {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* --------------- NAV --------------- */
+/* --------------- NAV --------------- */
+/* --------------- NAV --------------- */
+
+.navBar {
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navBar .left {
+  display: flex;
+}
+
+.navBar .right {
+  display: flex;
+}
+
+.navBar a {
+  display: flex;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  padding: 0 30px;
+  /* border: solid 1px red; */
+
+  color: #ffffff;
+}
+
+.navBar a:hover {
+  background-color: #949494;
+}
+
+/* --------------- CONTENT --------------- */
+/* --------------- CONTENT --------------- */
+/* --------------- CONTENT --------------- */
+
+.content {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  /* background-color: purple; */
+  gap: 30px;
+}
+
+.content .main {
+  /* background-color: red; */
+  flex: 1;
+}
+
+.content .side {
+  width: 300px;
+  padding: 23px;
+  background-color: white;
+  margin-top: 20px;
+  height: 346px;
+}
+
+/* --------------- ITEM --------------- */
+
+.item {
+  background-color: white;
+  padding: 25px 30px;
+  margin-top: 20px;
+}
+
+.itemTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 13px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 23px;
+}
+
+div img {
+  width: 890px;
+  height: 150px;
+  margin-bottom: 28px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* -- SIDE -- */
+
+div img {
+  width: 255px;
+  height: 179px;
+  margin-bottom: 28px;
+}
+
+/* --------------- FOOTER --------------- */
+/* --------------- FOOTER --------------- */
+/* --------------- FOOTER --------------- */
+
+footer {
+  margin-top: 59px;
+  background-color: #dddddd;
+  height: 63px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+footer p span {
+  font-weight: bold;
+}
